@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léandre Ribeiro Gonçalves - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style_portfolio.css">
+</head>
+<body>
+    <!-- Navbar principale -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#skills"><i class="fa-solid fa-code"></i> <span>Compétences</span></a></li>
+                <li><a href="#projects"><i class="fa-solid fa-folder-open"></i> <span>Projets</span></a></li>
+                <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> <span>Formations</span></a></li>
+                <li><a href="#interests"><i class="fa-solid fa-heart"></i> <span>Centres d'intérêts</span></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> <span>Me contacter</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section accueil -->
+    <section id="home" class="home-section">
+        <div class="intro">
+            <img src="img/my_logo.png" alt="Léandre Ribeiro Gonçalves" class="profile-pic">
+            <h1>Je suis <span>Léandre Ribeiro Gonçalves</span></h1>
+            <p>Étudiant en informatique passionné par le développement web, les échecs et le sport.</p>
+            <div class="links">
+                <a href="/docs/cv.pdf" download class="btn">Télécharger mon CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section id="skills" class="section">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <!-- Front-End -->
+            <div class="skill-card front-end">
+                <h3><i class="fa-solid fa-display fa-lg"></i> Front-End</h3>
+                <ul>
+                    <li><img src="img/logos/html5.svg" class="skill-logo" alt="HTML"> HTML</li>
+                    <li><img src="img/logos/css3.svg" class="skill-logo" alt="CSS"> CSS</li>
+                    <li><img src="img/logos/javascript.svg" class="skill-logo" alt="JavaScript"> JavaScript</li>
+                </ul>
+            </div>
+            <!-- Back-End -->
+            <div class="skill-card back-end">
+                <h3><i class="fa-solid fa-server fa-lg"></i> Back-End</h3>
+                <ul>
+                    <li><img src="img/logos/python.svg" class="skill-logo" alt="Python"> Python</li>
+                    <li><img src="img/logos/php.svg" class="skill-logo" alt="PHP"> PHP</li>
+                    <li><img src="img/logos/mysql.svg" class="skill-logo" alt="MySQL"> MySQL</li>
+                    <li><img src="img/logos/plsql.svg" class="skill-logo" alt="PL/SQL"> PL/SQL</li>
+                    <li><img src="img/logos/csharp.svg" class="skill-logo" alt="C#"> C#</li>
+                </ul>
+            </div>
+            <!-- Frameworks / Outils -->
+            <div class="skill-card frameworks">
+                <h3><i class="fa-solid fa-toolbox fa-lg"></i> Frameworks / Outils</h3>
+                <ul>
+                    <li><img src="img/logos/react.svg" class="skill-logo" alt="React"> React</li>
+                    <li><img src="img/logos/symfony.svg" class="skill-logo" alt="Symfony"> Symfony</li>
+                    <li><img src="img/logos/docker.svg" class="skill-logo" alt="Docker"> Docker</li>
+                    <li><img src="img/logos/composer.svg" class="skill-logo" alt="Composer"> Composer</li>
+                </ul>
+            </div>
+            <!-- Bases de données -->
+            <div class="skill-card databases">
+                <h3><i class="fa-solid fa-database fa-lg"></i> Bases de données</h3>
+                <ul>
+                    <li><img src="img/logos/oracle.svg" class="skill-logo" alt="Oracle"> Oracle</li>
+                    <li><img src="img/logos/mysql.svg" class="skill-logo" alt="MySQL"> MySQL</li>
+                </ul>
+            </div>
+            <!-- Logiciels -->
+            <div class="skill-card softwares">
+                <h3><i class="fa-solid fa-laptop fa-lg"></i> Logiciels</h3>
+                <ul>
+                    <li><img src="img/logos/vscode.svg" class="skill-logo" alt="VS Code"> VS Code</li>
+                    <li><img src="img/logos/visualstudio.svg" class="skill-logo" alt="Visual Studio"> Visual Studio</li>
+                    <li><img src="img/logos/phpstorm.svg" class="skill-logo" alt="PhpStorm"> PhpStorm</li>
+                    <li><img src="img/logos/pycharm.svg" class="skill-logo" alt="PyCharm"> PyCharm</li>
+                    <li><img src="img/logos/sqldeveloper.svg" class="skill-logo" alt="SQL Developer"> SQL Developer</li>
+                </ul>
+            </div>
+            <!-- Design / Autres -->
+            <div class="skill-card design">
+                <h3><i class="fa-solid fa-pencil-ruler fa-lg"></i> Design / Autres</h3>
+                <ul>
+                    <li><img src="img/logos/canva.svg" class="skill-logo" alt="Canva"> Canva</li>
+                    <li><img src="img/logos/figma.svg" class="skill-logo" alt="Figma"> Figma</li>
+                    <li><img src="img/logos/github.svg" class="skill-logo" alt="GitHub"> GitHub</li>
+                    <li><img src="img/logos/gitlab.svg" class="skill-logo" alt="GitLab"> GitLab</li>
+                    <li><img src="img/logos/linux.svg" class="skill-logo" alt="Linux"> Linux</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projets -->
+    <section id="projects" class="section">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+            <!-- Bataille navale -->
+            <div class="project-card bataille-navale">
+                <img src="img/bataille_navale.png" alt="Bataille Navale">
+                <h3>Bataille Navale</h3>
+                <p>Jeu en Python pour travailler la logique et les interactions. <strong>En cours de dev</strong>.</p>
+                <a href="https://github.com/leandreribeiro/bataille-navale" class="btn">Voir le projet</a>
+            </div>
+            <!-- Bot Discord -->
+            <div class="project-card bot-discord">
+                <img src="img/bot_discord.png" alt="Bot Discord">
+                <h3><a href="https://leandre-ribeiro-goncalves.com/memora" id="memora">Bot Discord</a></h3>
+                <p>Bot Python pour gérer serveurs et mini-jeux, avec commandes slash personnalisées.</p>
+                <a href="https://github.com/leandreribeiro/bot-discord" class="btn">Voir le projet</a>
+            </div>
+            <!-- Portfolio -->
+            <div class="project-card portfolio-web">
+                <img src="img/portfolio.png" alt="Portfolio Web">
+                <h3>Portfolio Web</h3>
+                <p>Site pour présenter mes compétences et projets, codé avec HTML, CSS et JS.</p>
+                <a href="https://github.com/leandreribeiro/projet-web" class="btn">Voir le projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section formations -->
+    <section id="education" class="section">
+        <h2>Formations</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>BUT Informatique</h3>
+                <p class="school">IUT Reims-Châlons-Charleville, Reims</p>
+                <p class="year">2024 - 2027</p>
+                <p class="description">Spécialisation en développement <strong>C#</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section centres d'intérêt -->
+    <section id="interests" class="section">
+        <h2>Centres d'intérêts</h2>
+        <div class="interests-grid">
+            <div class="interest-card">
+                <i class="fa-solid fa-chess-pawn fa-2x"></i>
+                <p>Échecs</p>
+            </div>
+            <div class="interest-card">
+                <i class="fa-solid fa-dumbbell fa-2x"></i>
+                <p>Musculation</p>
+            </div>
+            <div class="interest-card">
+                <i class="fa-solid fa-laptop-code fa-2x"></i>
+                <p>Informatique</p>
+            </div>
+            <div class="interest-card">
+                <i class="fa-solid fa-film fa-2x"></i>
+                <p>Films / Séries</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="section">
+        <h2>Me contacter</h2>
+        <p>Email : <a href="mailto:leandreribeiro243@gmail.com">leandreribeiro243@gmail.com</a></p>
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/leandre-ribeiro-goncalves">Léandre Ribeiro Gonçalves</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Léandre Ribeiro Gonçalves.</p>
+    </footer>
+</body>
+</html>
