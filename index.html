@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léandre Ribeiro Gonçalves</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#home"><i class="fa-solid fa-house"></i>
+            <span>Accueil</span>
+          </a>
+        </li>
+        <li>
+          <a href="#projects"><i class="fa-solid fa-code"></i>
+            <span>Projets</span>
+          </a>
+        </li>
+        <li>
+          <a href="#skills"><i class="fa-solid fa-laptop-code"></i>
+            <span>Compétences</span>
+          </a>
+        </li>
+        <li>
+          <a href="#formation"><i class="fa-solid fa-graduation-cap"></i>
+            <span>Formation</span>
+          </a>
+        </li>
+        <li>
+          <a href="#hobbies"><i class="fa-solid fa-heart"></i>
+            <span>Hobbies</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <div id="particles-hero" class="particles"></div>
+      <img src="img/hero.png">
+      <h1>Léandre RIBEIRO GONCALVES</h1>
+      <p>Étudiant en BUT Informatique à l'IUT de Reims. Passionné par le développement web, j'ai déjà pu acquérir un certain nombre de compétences que je vais vous laisser découvrir.</p>
+    </section>
+
+    <section id="projects" class="orange">
+      <h2>Mes Projets</h2>
+      <div class="projects">
+        <!-- Projet bataille navale -->
+        <div class="project">
+          <h3>Bataille Navale</h3>
+          <p>
+            Jeu de bataille navale développé en Python avec la bibliothèque Pygame et entièrement conçu en programmation orientée objet. 
+            Il comprend un menu de personnalisation des parties, le placement des bateaux par le joueur via une interface graphique, 
+            la sélection des tirs, ainsi qu'un écran de fin affichant différentes statistiques. 
+            Un algorithme permet également à l'ordinateur de jouer de la manière la plus optimale possible. (jeu toujours en cours de développement)
+          </p>
+          <div class="stack">
+            <span><i class="devicon-python-plain colored"></i> Python</span>
+            <span><i class="devicon-python-plain colored"></i> Pygame</span>
+          </div>
+          <div class="project-slider">
+            <button class="prev">❮</button>
+            <img src="img/bataille-navale1.png" class="active">
+            <img src="img/bataille-navale2.png">
+            <img src="img/bataille-navale3.png">
+            <img src="img/bataille-navale4.png">
+            <img src="img/bataille-navale5.png">
+            <img src="img/bataille-navale6.png">
+            <img src="img/bataille-navale7.png">
+            <img src="img/bataille-navale8.png">
+            <button class="next">❯</button>
+          </div>
+          <a class="github-btn" href="https://github.com/LeandreAZ/bataille_navale" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <!-- Projet Bot discord -->
+        <div class="project">
+          <h3>Bot Discord</h3>
+          <p>
+            Bot Discord développé en Python utilisant l'API de Discord ainsi que le module MySQL pour stocker les données des parties des utilisateurs. 
+            Le bot propose un jeu de memory pouvant être ajouté sur différents serveurs. 
+            Il comprend également plusieurs commandes, dont l'affichage de l'historique des parties d'un joueur ainsi qu'un classement (leaderboard) sur le serveur.
+            Des commandes de modération ont aussi été implémentées afin de me familiariser avec leur fonctionnement.
+          </p>
+          <div class="stack">
+            <span><i class="devicon-python-plain colored"></i> Python</span>
+            <span><i class="devicon-python-plain colored"></i> Discord API</span>
+            <span><i class="devicon-mysql-plain colored"></i> MySQL</span>
+          </div>
+          <div class="project-slider">
+            <button class="prev">❮</button>
+            <img src="img/bot1.png" class="active">
+            <img src="img/bot2.png">
+            <button class="next">❯</button>
+          </div>
+          <a class="github-btn" href="https://github.com/LeandreAZ/discord_bot" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <!-- Projet SAE Buddy System -->
+        <div class="project">
+          <h3>SAÉ Buddy System</h3>
+          <p>
+            SAÉ réalisée lors de ma formation en collaboration avec d'autres étudiants. Ce projet a été développé avec le framework Symfony. 
+            L'objectif était de créer une plateforme permettant aux étudiants de s'inscrire et de rencontrer d'autres étudiants pour des échanges linguistiques. 
+            Les utilisateurs peuvent rejoindre des groupes, discuter avec d'autres étudiants en privé ou en groupe, créer ou rejoindre des événements et parrainer des étudiants.
+          </p>
+          <div class="stack">
+            <span><i class="devicon-php-plain colored"></i> PHP</span>
+            <span><i class="devicon-html5-plain colored"></i> HTML</span>
+            <span><i class="devicon-javascript-plain colored"></i> JS</span>
+            <span><i class="devicon-css3-plain colored"></i> CSS</span>
+            <span><i class="devicon-azuresqldatabase-plain colored"></i> SQL</span>
+            <span><i class="devicon-symfony-original colored"></i> Symfony</span>
+            <span><i class="devicon-bootstrap-plain colored"></i>Bootstrap</span>
+          </div>
+          <div class="project-slider">
+            <button class="prev">❮</button>
+            <img src="img/buddy1.png" class="active">
+            <img src="img/buddy2.png">
+            <img src="img/buddy3.png">
+            <img src="img/buddy4.png">
+            <img src="img/buddy5.png">
+            <img src="img/buddy6.png">
+            <button class="next">❯</button>
+          </div>
+          <a class="github-btn" href="https://github.com/LeandreAZ/buddy-system" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <!-- Projet portfolio -->
+        <div class="project">
+          <h3>Portfolio</h3>
+          <p>Portfolio personnel développé en HTML, CSS et JavaScript. Il présente mon profil, mes compétences et différents projets réalisés durant ma formation et en autonomie.</p>
+          <div class="stack">
+            <span><i class="devicon-html5-plain colored"></i> HTML</span>
+            <span><i class="devicon-css3-plain colored"></i> CSS</span>
+            <span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+          </div>
+          <div class="project-slider">
+            <button class="prev">❮</button>
+            <img src="img/portfolio1.png" class="active">
+            <img src="img/portfolio2.png">
+            <img src="img/portfolio3.png">
+            <img src="img/portfolio4.png">
+            <img src="img/portfolio5.png">
+            <button class="next">❯</button>
+          </div>
+          <a class="github-btn" href="https://github.com/LeandreAZ/portfolio" target="_blank">Voir sur GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Compétences</h2>
+      <div class="skills">
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+          <p>Python</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+          <p>PHP</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+          <p>MySQL</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg">
+          <p>SQL & PL/SQL</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+          <p>C#</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg">
+          <p>Symfony</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+          <p>React</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+          <p>Docker</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg">
+          <p>Composer</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg">
+          <p>Laravel (en cours)</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg">
+          <p>Flask (en cours)</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+          <p>Git</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+          <p>GitHub</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+          <p>Linux</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+          <p>VS Code</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg">
+          <p>Visual Studio</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg">
+          <p>PHPStorm</p>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg">
+          <p>PyCharm</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="particles-cv" class="particles"></div>
+      <h2>Télécharger mon Curriculum Vitae</h2>
+      <p class="cv-description">Vous pouvez télécharger mon CV au format PDF.</p>
+      <a class="btn" href="cv.pdf" download>Télécharger le CV</a>
+    </section>
+
+    <section id="formation">
+      <h2>Formation</h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-circle">
+            <img src="img/iut.png">
+          </div>
+          <div class="timeline-content">
+            <h3>BUT Informatique</h3>
+            <p>IUT de Reims</p>
+            <p>Développement Web</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-circle">
+            <img src="img/lycee.png">
+          </div>
+          <div class="timeline-content">
+            <h3>Bac Général</h3>
+            <p>Spécialités Mathématiques et NSI</p>
+            <p>Lycée Franklin D. Roosevelt - Reims</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-circle">
+            <span>Départ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="orange">
+      <h2>Hobbies</h2>
+      <div class="hobbies">
+        <div class="hobby">
+          <i class="fa-solid fa-dumbbell"></i>
+          <h3>Musculation</h3>
+        </div>
+        <div class="hobby">
+          <i class="fa-solid fa-chess"></i>
+          <h3>Échecs en club</h3>
+        </div>
+        <div class="hobby">
+          <i class="fa-solid fa-film"></i>
+          <h3>Films & Séries</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div id="particles-footer" class="particles"></div>
+      <h3>Léandre Ribeiro Gonçalves</h3>
+      <p>
+        <a href="https://github.com/LeandreAZ/">GitHub</a> -
+        <a href="">LinkedIn</a>
+      </p>
+      <p>Contactez-moi : 
+        <a href="mailto:"></a>
+      </p>
+      <p class="copyright">© 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="index.js"></script>
+
+  </body>
+</html>
