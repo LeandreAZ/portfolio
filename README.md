@@ -16,7 +16,7 @@ In practical terms, it simply serves to showcase my skills and projects.
 
 
 ## Installation
-- If you want to reuse the project, you can close the repository :
+- If you want to reuse the project, you can clone the repository :
 
 ```bash
 git clone https://github.com/LeandreAZ/portfolio.git
