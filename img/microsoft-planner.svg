@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="planner-title">
+  <title id="planner-title">Microsoft Planner</title>
+  <defs>
+    <linearGradient id="planner-a" x1="6.387" y1="3.742" x2="2.158" y2="12.777" gradientUnits="userSpaceOnUse"><stop stop-color="#8752e0"/><stop offset="1" stop-color="#541278"/></linearGradient>
+    <linearGradient id="planner-b" x1="8.38" y1="11.07" x2="4.941" y2="7.692" gradientUnits="userSpaceOnUse"><stop offset=".122" stop-color="#3d0d59"/><stop offset="1" stop-color="#7034b0" stop-opacity="0"/></linearGradient>
+    <linearGradient id="planner-c" x1="18.37" y1="0" x2="9.857" y2="20.419" gradientUnits="userSpaceOnUse"><stop stop-color="#db45e0"/><stop offset=".677" stop-color="#a829ae"/><stop offset="1" stop-color="#8f28b3"/></linearGradient>
+    <linearGradient id="planner-d" x1="18" y1="7.5" x2="14" y2="23.999" gradientUnits="userSpaceOnUse"><stop stop-color="#3dcbff"/><stop offset="1" stop-color="#00479e"/></linearGradient>
+    <linearGradient id="planner-e" x1="18.216" y1="7.926" x2="10.524" y2="22.936" gradientUnits="userSpaceOnUse"><stop stop-color="#3dcbff"/><stop offset="1" stop-color="#4a40d4"/></linearGradient>
+  </defs>
+  <path d="M8.258 15.741a2.646 2.646 0 0 1-3.742 0L.775 12a2.646 2.646 0 0 1 0-3.742l3.741-3.741a2.646 2.646 0 0 1 3.742 0L12 8.258A2.646 2.646 0 0 1 12 12l-3.742 3.741z" fill="url(#planner-a)"/>
+  <path d="M8.258 15.741a2.646 2.646 0 0 1-3.742 0L.775 12a2.646 2.646 0 0 1 0-3.742l3.741-3.741a2.646 2.646 0 0 1 3.742 0L12 8.258A2.646 2.646 0 0 1 12 12l-3.742 3.741z" fill="url(#planner-b)"/>
+  <path d="M.775 12a2.646 2.646 0 0 0 3.742 0L15.742.775a2.646 2.646 0 0 1 3.741 0l3.742 3.742a2.646 2.646 0 0 1 0 3.741L12 19.483a2.646 2.646 0 0 1-3.742 0L.775 12z" fill="url(#planner-c)"/>
+  <path d="M4.516 15.741a2.646 2.646 0 0 0 3.742 0l7.483-7.483a2.646 2.646 0 0 1 3.742 0L23.225 12a2.646 2.646 0 0 1 0 3.741l-7.484 7.484a2.646 2.646 0 0 1-3.741 0l-7.484-7.484z" fill="url(#planner-d)"/>
+  <path d="M4.516 15.741a2.646 2.646 0 0 0 3.742 0l7.483-7.483a2.646 2.646 0 0 1 3.742 0L23.225 12a2.646 2.646 0 0 1 0 3.741l-7.484 7.484a2.646 2.646 0 0 1-3.741 0l-7.484-7.484z" fill="url(#planner-e)"/>
+</svg>
